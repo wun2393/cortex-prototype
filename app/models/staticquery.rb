@@ -1,2 +1,0 @@
-class Staticquery < ApplicationRecord
-end

@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  txt_scheme: MyString
+  txt_relevant_doc: MyString
+  txt_relevant_doc_section_details: MyString
+  txt_bp_1: MyString
+  txt_bp_2: MyString
+  txt_bp_3: MyString
+  txt_bp_4: MyString
+  static_query: one
+
+two:
+  txt_scheme: MyString
+  txt_relevant_doc: MyString
+  txt_relevant_doc_section_details: MyString
+  txt_bp_1: MyString
+  txt_bp_2: MyString
+  txt_bp_3: MyString
+  txt_bp_4: MyString
+  static_query: two
