@@ -1,0 +1,7 @@
+<h1>CortexQueries#index</h1>
+  <%= simple_form_for :search, url: search_path, method: "GET", html: { class: 'row g-3 align-items-center'} do |f| %>
+    <%= f.input :name %>
+    <%= f.input :email %>
+    <%= f.button :submit %>
+  <% end %>
+<p>Find me in app/views/cortex_queries/index.html.erb</p>
