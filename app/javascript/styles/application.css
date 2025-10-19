@@ -85,7 +85,6 @@ body {
   padding: 14px 42px 14px;
   margin: 100px auto;
   border: 1px;
-  border-radius: 4px;
   font-size: 16px;
   border-radius: 9999px;
   background-color: #ECE6F0;
@@ -120,4 +119,105 @@ body {
   display: block;
   text-align: center;
   width: 100%;
+}
+
+.react-response-date-time-content {
+  margin-bottom: 0px;
+}
+
+.react-response-date-time-content > p {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #494949;
+}
+
+.react-response-static-query-content {
+  margin-top: -20px;
+}
+
+.react-response-static-query-content > p {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+  color: #494949;
+}
+
+.react-response-static-response-content {
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+}
+
+.react-response-static-response-content > p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0;
+}
+
+li {
+  max-width: 55ch;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.react-response-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 1.5rem;
+  margin-top: 20px;
+}
+
+.react-response-details-section {
+  margin-top: -80px;
+}
+
+.react-response-references-section {
+  border: 1px solid #cfcfcf;
+  border-radius: 12px;
+  padding: 12px 18px;
+
+}
+
+.react-response-references-section > p {
+  font-weight: 400;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+  color: #494949;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.react-response-reference-card {
+  padding: 4px 16px;
+  margin-bottom: 8px;
+  border-radius: 24px;
+  background-color: #ECE6F0
+}
+
+.react-response-reference-card-title {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  color: #666666;
+  margin-bottom: 2px;
+}
+
+.react-response-reference-card-section-content {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  color: #494949;
+  max-width: 25ch;
+  white-space: normal;
+  word-wrap: break-word;
+  margin-top: 0px;
 }
