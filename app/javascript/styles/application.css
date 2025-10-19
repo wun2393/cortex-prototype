@@ -47,3 +47,77 @@ body {
   font-family: 'Inter', sans-serif;
   color: #333333;
 }
+
+.react-index-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.react-index-search-bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 0 1.5rem;
+  height: 30px;
+  border-radius: 9999px;
+}
+
+.react-index-search-bar_burger_icon {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.react-index-search-bar_input {
+  width: 600px;
+  padding: 14px 42px 14px;
+  margin: 100px auto;
+  border: 1px;
+  border-radius: 4px;
+  font-size: 16px;
+  border-radius: 9999px;
+  background-color: #ECE6F0;
+}
+
+.react-index-search-bar_button {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.react-index-search-bar_button > img {
+  width: 40px;
+  height: 40px;
+}
+
+.react-index-welcome-msg {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #333333;
+  position: relative;
+  top: -40px;
+}
+
+.centered-line {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
