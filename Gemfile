@@ -41,6 +41,9 @@ gem "bootsnap", require: false
 # simple_form gem
 gem "simple_form"
 
+# vite_rails gem
+gem "vite_rails"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
