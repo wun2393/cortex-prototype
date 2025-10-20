@@ -4,6 +4,7 @@ import "../styles/application.css";
 import TopNavbar from "../components/TopNavbar";
 import IndexApp from "../components/IndexApp";
 import ResponseApp from "../components/ResponseApp";
+import ResponseSearchBar from "../components/ResponseSearchBar";
 
 function mountComponents() {
   console.log("testing...")
@@ -41,6 +42,11 @@ function mountComponents() {
     console.log(parsedStaticResponseReferences)
 
     ReactDOM.createRoot(ResponseAppEl).render(<ResponseApp propCurrentDateTime={currentDateTime} propStaticQuery={parsedStaticQuery} propStaticResponse={parsedStaticResponse} propStaticResponseReferences={parsedStaticResponseReferences} />)
+  }
+
+  const ResponseSearchBarEl = document.getElementById("response-search-bar")
+  if (ResponseSearchBarEl) {
+    ReactDOM.createRoot(ResponseSearchBarEl).render(<ResponseSearchBar />)
   }
 }
 

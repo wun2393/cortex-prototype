@@ -12,8 +12,6 @@ const ResponseLongResultsContent = ({staticResponse}) => {
         <li>{staticResponse.txt_bp_3}</li>
         <li>{staticResponse.txt_bp_4}</li>
       </ul>
-
-
     </div>
   )
 }
